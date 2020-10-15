@@ -13,7 +13,7 @@ typedef float vector[DIM];
 
 // functions
 // print vector
-void print(float vec_a);
+void print(float * vec_a);
 
 // vector addition
 float* add(vector vec_a, vector vec_b);

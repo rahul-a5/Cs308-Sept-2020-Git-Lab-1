@@ -1,4 +1,6 @@
 #include "veclib.h"
+#include <stdio.h>
+
 
 
 int main() {
@@ -13,6 +15,11 @@ int main() {
     for(int i=0;i<DIM;i++){
         scanf("%f",&vecB[i]);
     }
+    float * added_vec;
+    added_vec=add(vecA,vecB);
+    printf("Resultant vector after addition\n");
+    print(added_vec);
+
 
 
 
