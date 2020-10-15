@@ -20,8 +20,15 @@ int main() {
     printf("Resultant vector after addition\n");
     print(added_vec);
 
+    float * EleProd_vec;
+    EleProd_vec=eleProd(vecA,vecB);
+    printf("Resultant vector after element-wise Product\n");
+    print(EleProd_vec);
 
-
+    float * Diff_vec;
+    Diff_vec=diff(vecA,vecB);
+    printf("Resultant difference Vector:\n"); // vec1 - vec2
+    print(Diff_vec);
 
     return 0;
 } 
