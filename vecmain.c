@@ -35,5 +35,9 @@ int main()
     Angle_vec = angle(vecA, vecB);
     printf("Angle between the vectors: %f\n", Angle_vec);
 
+    float dot_prod;
+    dot_prod = dotprod(vecA, vecB);
+    printf("The dot product of the vectors is: %f\n", dot_prod);
+
     return 0;
 }
