@@ -30,7 +30,7 @@ float dotprod(vector vec_a, vector vec_b);
 //angle between 2 vector
 float angle(vector vec_a, vector vec_b);
 
-//norm of 2 vector
-float norm(vector vec_a, vector vec_b);
+//norm of 1 vector
+float norm(vector vec_a);
 
 #endif
