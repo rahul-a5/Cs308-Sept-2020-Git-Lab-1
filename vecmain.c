@@ -39,5 +39,10 @@ int main()
     dot_prod = dotprod(vecA, vecB);
     printf("The dot product of the vectors is: %f\n", dot_prod);
 
+    float norm_vecA,norm_vecB;
+    norm_vecA= norm(vecA);
+    norm_vecB= norm(vecB);
+    printf("Norm of the given first vector is : %f\n",norm_vecA);
+    printf("Norm of the given second vector is : %f\n",norm_vecB);
     return 0;
 }
